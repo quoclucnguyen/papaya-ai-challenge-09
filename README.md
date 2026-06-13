@@ -3,6 +3,8 @@
 Interactive analytics dashboard cho 5,000 insurance claims (generated dataset).
 Stack: **Vite + React 19 + TypeScript + Recharts 3 + PapaParse + Vitest**.
 
+**Live demo:** https://papaya-ai-challenge-09.vercel.app
+
 > Đề bài: [AI_Challenge_09.md](./AI_Challenge_09.md) · Plan chi tiết: [PLAN.md](./PLAN.md) · Checklist nghiệm thu: [CHECKLIST.md](./CHECKLIST.md)
 
 ## Chạy local
@@ -16,7 +18,9 @@ npm run build      # production build → dist/
 
 ## Dataset
 
-`public/data/claims.csv` — 5,000 claims, **đã commit vào repo** (yêu cầu đề). Sinh lại bằng:
+**Requirement fulfilled:** Include the generated dataset in the repository.
+
+[`public/data/claims.csv`](./public/data/claims.csv) — 5,000 claims, **đã commit vào repo**. Sinh lại bằng:
 
 ```bash
 npm run generate-data   # node scripts/generate-data.ts — seeded, chạy lại ra đúng cùng file
