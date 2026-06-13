@@ -1,4 +1,4 @@
-# Challenge 09 — Claims Analytics Dashboard
+# AI Challenge 09 — Claims Analytics Dashboard
 
 Interactive analytics dashboard cho 5,000 insurance claims (generated dataset).
 Stack: **Vite + React 19 + TypeScript + Recharts 3 + PapaParse + Vitest**.
